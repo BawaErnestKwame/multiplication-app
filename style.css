@@ -27,4 +27,40 @@ form{
     display: block;
     width: 100%;
     margin: 20px 0;
+    text-align: center;
+    padding: 10px;
+    border: 2px solid rgb(10, 97, 68);
+    border-radius: 5px;
+    color: rgb(10, 97, 68);
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.input::placeholder{
+    color: rgb(160, 156, 156);
+    
+}
+
+
+.btn{
+    width: 100%;
+    padding: 10px;
+    background-color: rgb(10, 97, 68);
+    color: whitesmoke;
+    letter-spacing: 1px;
+    font-size: 18px;
+    border: 0;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, .3);
+    transition: 0.5s;
+}
+
+.btn:hover{
+filter:brightness(0.9)
+}
+
+.score{
+    text-align: right;
+    margin: 20px 0;
+    color: rgb(10, 97, 68)321;
 }
