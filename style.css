@@ -62,5 +62,7 @@ filter:brightness(0.9)
 .score{
     text-align: right;
     margin: 20px 0;
-    color: rgb(10, 97, 68)321;
+    
+    color: rgb(255, 17, 0);
+    
 }
